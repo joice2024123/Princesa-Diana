@@ -1,45 +1,37 @@
-body{
-  max-width: ;
+body {
+  max-width: 100%;
 }
-header{
-          background-color:rgb(45, 155, 189);
-          color:rgb(241, 241, 241);
-          text-align: center;
-          max-width: 800px;
-          margin: 0, auto;
-          padding: 8px;
-          border: 5px, solid, rgb(245, 217, 37);
-          display: flexbox;
-       }
-       main{
-         background-color: rgb(21, 114, 175);
-         color: rgb(255, 255, 255);
-         text-align: center;
-         max-width: 800px;
-         margin: 0, auto;
-         display: flex;
-         flex-wrap: wrap;
-
-        
-       }
-       article{
-        display:flex;
-        border: 1px solid blue;
-
-        margin: 16px;
-        gap: 16px;
-        padding:16px;
-
-        flex: 1 1 25%
-       }
-       img{
-         width: 80px;
-         height: 80ṕx;
-       }
-       .artigo-autor{
-         font-weight: bold;
-       }
-
-
-
-
+header {
+  background-color: rgb(45, 155, 189);
+  color: rgb(241, 241, 241);
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 8px;
+  border: 5px solid rgb(245, 217, 37);
+  display: flex;
+}
+main {
+  background-color: rgb(21, 114, 175);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+article {
+  display: flex;
+  border: 1px solid blue;
+  margin: 16px;
+  gap: 16px;
+  padding: 16px;
+  flex: 1 1 25%;
+}
+img {
+  width: 90px;
+  height: 90px;
+}
+.artigo-autor {
+  font-weight: bold;
+}
